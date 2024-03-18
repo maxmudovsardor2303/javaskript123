@@ -1,0 +1,53 @@
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 30px;
+     ul{
+         display: flex;
+         gap: 30px;
+         li{
+             font-size: 20px;
+             font-family: Heebo;
+             font-weight: 500;
+             line-height: 29px;
+         }
+     }
+     .burger{
+        display: none;
+    }
+ }
+
+ @media (max-width: 1026px) {
+    .container{
+        padding-left: 80px;
+        padding-right: 80px;
+        ul{
+            gap: 20px;
+            
+               
+                li{
+                    display: none;
+                  }
+            
+            }
+            .burger {
+                display: flex;
+            }
+    }
+}
+
+@media (max-width: 500px) {
+    .container{
+        padding-left: 80px;
+        padding-right: 80px;
+        ul{
+            gap: 20px;
+            
+        }
+       
+    }
+}
+
+    

@@ -1,0 +1,106 @@
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 100px;
+    .main-body{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        .main-img{
+            max-width: 240px;
+           
+        }
+        .main-item{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h2{
+                max-width: 300px;
+                font-family: Heebo;
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 44px;
+            }
+            
+        }
+        .main-box{
+            display: flex;
+            gap: 20px;
+            p{
+                color: rgba(134, 149, 164, 1);
+
+            }
+            span{
+                background: black;
+                color: #fff;
+                border: 4px solid;
+            }
+        }
+        p{
+            max-width: 590px;
+            font-family: Heebo;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+}
+
+@media (max-width:650px) {
+    main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 100px;
+        .main-body{
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            .main-img{
+                max-width: 200px;
+               
+            }
+            .main-item{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h2{
+                    max-width: 300px;
+                    font-family: Heebo;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 34px;
+                }
+                
+            }
+            .main-box{
+                display: flex;
+                gap: 15px;
+                p{
+                    color: rgba(134, 149, 164, 1);
+    
+                }
+                span{
+                    background: black;
+                    color: #fff;
+                    border: 4px solid;
+                }
+            }
+            p{
+                max-width: 500px;
+                font-family: Heebo;
+                font-size: 10px;
+                font-weight: 400;
+                line-height: 14px;
+            }
+        }
+    }
+}

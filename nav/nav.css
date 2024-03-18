@@ -1,0 +1,45 @@
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-top: 30px;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+nav ul li {
+  font-size: 20px;
+  font-family: Heebo;
+  font-weight: 500;
+  line-height: 29px;
+}
+nav .burger {
+  display: none;
+}
+
+@media (max-width: 1026px) {
+  .container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .container ul {
+    gap: 20px;
+  }
+  .container ul li {
+    display: none;
+  }
+  .container .burger {
+    display: flex;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .container ul {
+    gap: 20px;
+  }
+}/*# sourceMappingURL=nav.css.map */
